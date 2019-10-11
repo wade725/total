@@ -36,7 +36,7 @@
                 <input class="layui-input" name="code" placeholder="验证码" lay-verify="required" type="text" autocomplete="off">
                 <div class="code"><img src="${ctx}/captcha.do" width="116" height="36"></div>
             </div>
-
+            <%--<button class="layui-btn login_btn" lay-submit="" lay-filter="login">登陆系统</button>--%>
             <button class="layui-btn login_btn" lay-submit="" lay-filter="login">登陆系统</button>
         </form>
     </div>
